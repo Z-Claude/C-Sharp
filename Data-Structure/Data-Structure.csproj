@@ -9,7 +9,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Stack\" />
+    <Compile Remove="Stack\**" />
+    <EmbeddedResource Remove="Stack\**" />
+    <None Remove="Stack\**" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,7 @@
+﻿namespace Entity_Framework_Core.Models
+{
+    public abstract class BaseModel
+    {
+        public int Id { get; set; }
+    }
+}
